@@ -1,6 +1,6 @@
 # Site settings
-title: "My Awesome New Blog"
-description: "A blog about my thoughts, hobbies, and adventures."
+title: "The Protocol"
+description: ""
 # email: "your@email.com"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jameswallace99.github.io" # the base hostname & protocol for your site
