@@ -1,7 +1,7 @@
 # Site settings
 title: "The Protocol"
-description: ""
-# email: "your@email.com"
+description: "test description"
+email: "t4st email"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jameswallace99.github.io" # the base hostname & protocol for your site
 
