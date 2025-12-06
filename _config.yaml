@@ -1,0 +1,14 @@
+# Site settings
+title: "My Awesome New Blog"
+description: "A blog about my thoughts, hobbies, and adventures."
+# email: "your@email.com"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jameswallace99.github.io" # the base hostname & protocol for your site
+
+# Theme settings
+remote_theme: "jekyll/minima@1e8a445" # This is an example, choose your theme
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
