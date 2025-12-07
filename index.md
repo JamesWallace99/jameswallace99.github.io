@@ -1,10 +1,8 @@
 ---
-# 1. YAML Front Matter (This defines the page)
 layout: 'home'
-title: Latest Posts
+title: a collection of thoughts
 ---
 
-# random collected thoughts
 
 <ul class="post-list">
   {% for post in site.posts %} 
