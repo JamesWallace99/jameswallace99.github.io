@@ -12,6 +12,14 @@ remote_theme: "jekyll/minima@1e8a445" # This is an example, choose your theme
 markdown: kramdown
 
 #navigation
-header_pages:
-  - index.md
-  - about.md
+# _config.yml
+# ... (rest of your settings) ...
+
+# --------------------------
+# NAVIGATION CONFIGURATION
+# --------------------------
+header_links:
+  - title: Home
+    url: /
+  - title: About Me
+    url: /about/
