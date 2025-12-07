@@ -1,6 +1,6 @@
 ---
 # YAML Front Matter (Required for Jekyll Processing)
-layout: default # or 'home'—depends on your theme. 'default' is safest.
+layout: 'home'
 title: My Awesome New Blog - Home
 description: "Thoughts, code, and adventures from my iPad."
 ---
