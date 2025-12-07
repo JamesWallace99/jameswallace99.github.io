@@ -10,3 +10,8 @@ remote_theme: "jekyll/minima@1e8a445" # This is an example, choose your theme
 
 # Build settings
 markdown: kramdown
+
+#navigation
+header_pages:
+  - index.md
+  - about.md
