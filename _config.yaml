@@ -8,6 +8,10 @@ url: "https://jameswallace99.github.io" # the base hostname & protocol for your 
 # Theme settings
 remote_theme: "jekyll/minima@d4d779a" # This is an example, choose your theme
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 # Build settings
 markdown: kramdown
 
