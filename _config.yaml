@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jameswallace99.github.io" # the base hostname & protocol for your site
 
 # Theme settings
-remote_theme: "jekyll/minima@1e8a445" # This is an example, choose your theme
+remote_theme: "jekyll/minima@v0.2.0" # This is an example, choose your theme
 
 # Build settings
 markdown: kramdown
