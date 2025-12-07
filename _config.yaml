@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jameswallace99.github.io" # the base hostname & protocol for your site
 
 # Theme settings
-remote_theme: "jekyll/minima@1e8a445" # This is an example, choose your theme
+remote_theme: "jekyll/minima@d4d779a" # This is an example, choose your theme
 
 # Build settings
 markdown: kramdown
@@ -24,4 +24,6 @@ header_links:
   - title: About Me
     url: /about/
 
-hide_site_feed_link: True # hide rss feed link from footer
+hide_site_feed_link: true # hide rss feed link from footer
+
+
