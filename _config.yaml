@@ -12,6 +12,7 @@ plugins:
 
 minima:
   skin: dark
+  hide_site_feed_link = true
 
 
 # Build settings
@@ -30,6 +31,5 @@ header_links:
   - title: About Me
     url: /about/
 
-hide_site_feed_link: true # hide rss feed link from footer
 
 
