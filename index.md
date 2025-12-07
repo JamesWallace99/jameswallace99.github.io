@@ -1,37 +1,18 @@
 ---
-# YAML Front Matter (Required for Jekyll Processing)
+# 1. YAML Front Matter (This defines the page)
 layout: 'home'
-title: My Awesome New Blog - Home
-description: "Thoughts, code, and adventures from my iPad."
+title: Latest Posts
 ---
 
-# Welcome to the Blog!
-
-This is the main introduction to your blog. It will appear before the feed of posts.
-
----
+# random collected thoughts
 
 <ul class="post-list">
-  {% for post in site.posts limit: 10 %} 
+  {% for post in site.posts %} 
   
   <li class="post-item">
-    
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-
-    <span class="post-meta">
-      Posted: {{ post.date | date: "%B %-d, %Y" }}
-      {% if post.author %} - by {{ post.author }}{% endif %}
-    </span>
-    
-    <div class="post-excerpt">
-      {{ post.excerpt }}
-    </div>
-
-    <a href="{{ post.url | relative_url }}" class="read-more-link">Continue Reading &rarr;</a>
-    
-    <hr>
-  </li>
+    </li>
   
   {% endfor %}
 </ul>
+
 
