@@ -23,3 +23,5 @@ header_links:
     url: /
   - title: About Me
     url: /about/
+
+hide_site_feed_link: True # hide rss feed link from footer
