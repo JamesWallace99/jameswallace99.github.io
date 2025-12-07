@@ -1,8 +1,6 @@
 # Site settings
 title: "james wallace"
 description: "james wallace - 2025"
-email: "t4st email"
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jameswallace99.github.io" # the base hostname & protocol for your site
 
 # Theme settings
@@ -11,6 +9,10 @@ remote_theme: "jekyll/minima@d4d779a" # This is an example, choose your theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+minima:
+  skin: dark
+
 
 # Build settings
 markdown: kramdown
